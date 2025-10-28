@@ -1,0 +1,5 @@
+- Create "Controllers" folder inside api
+- Create the controllers
+- Add controllers to the Program.cs file
+  - builder.Services.AddControllers();
+  - app.MapControllers(); // Https redirect error will be thrown if not added

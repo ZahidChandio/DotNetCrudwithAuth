@@ -1,0 +1,7 @@
+- Create a "DTOs" folder inside api
+- Create the DTOs
+- Create a Mapper (optional) inside api
+- Create the Mappers
+- Go to controllers and add .Select(s => s.ToStockDto()); (For multiple values) method and s.ToStockDto(); for single values
+- builder.Services.AddAutoMapper(typeof(ClientProfile).Assembly) can also be used for auto conversion instead of using DTOs.
+- Reference: https://learn.microsoft.com/en-us/aspnet/web-api/overview/data/using-web-api-with-entity-framework/part-5

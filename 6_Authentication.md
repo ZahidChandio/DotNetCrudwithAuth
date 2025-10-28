@@ -1,0 +1,2 @@
+- Open nuget gallery extension and install identity.core (by microsoft), Microsoft.AspNetCore.Identity.EntityFrameworkCore (by ASP.NET) extensions
+- Go to Models -> Add AppUser.cs class
