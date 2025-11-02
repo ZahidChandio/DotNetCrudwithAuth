@@ -24,11 +24,13 @@ namespace api.Data
             List<IdentityRole> roles = new List<IdentityRole>{
                 new IdentityRole 
                 {
+                    Id = "Admin-id",
                     Name = "Admin",
                     NormalizedName = "Admin"
                 },
                 new IdentityRole 
                 {
+                    Id = "User-id",
                     Name = "User",
                     NormalizedName = "USER"
                 }
