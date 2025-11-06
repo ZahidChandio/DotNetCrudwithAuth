@@ -25,7 +25,7 @@
     options.DefaultForbidScheme =
     options.DefaultScheme =
     options.DefaultSignInScheme =
-    options.DefaultSignOutScheme = BearerTokenDefaults.AuthenticationScheme;
+    options.DefaultSignOutScheme = JwtBearerDefaults.AuthenticationScheme;
     }).AddJwtBearer(options => {
     options.TokenValidationParameters = new TokenValidationParameters {
     ValidateIssuer = true,
