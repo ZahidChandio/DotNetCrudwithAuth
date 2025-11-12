@@ -26,7 +26,7 @@
     });
   ```
 
-- Run `dotnet tool install --global dotnet-ef --version 8.0.0`
+- Run `dotnet tool install --global dotnet-ef --version 9.0.0`
 
 - Run `dotnet ef migrations add Init`
 - Run `dotnet ef database update`
