@@ -48,7 +48,7 @@ namespace api.Controllers
             // Filtering by params
             var stocks = await _stockRepository.GetAllAsync(query);
 
-            var stockDto = stocks.Select(s => s.ToStockDto());
+            var stockDto = stocks.Select(s => s.ToStockDto()).ToList();
 
             return Ok(stocks);
         }
